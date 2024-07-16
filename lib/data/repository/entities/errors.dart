@@ -1,0 +1,1 @@
+class LoginCredentialsException implements Exception {}
