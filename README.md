@@ -1,16 +1,25 @@
 # lesson_challenge
 
-A new Flutter project.
+Lesson details feature presents a screen that allows viewing and interacting
+with Pages and Tasks of a selected Lesson.
 
-## Getting Started
+## Expected Criteria:
 
-This project is a starting point for a Flutter application.
+- The screen allows to move between Pages of the Lesson
 
-A few resources to get you started if this is your first Flutter project:
+- Each Page displays its content (list of `ContentComponent`) including text and
+  image components
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- After user saw all Pages the screen presents Tasks of the Lesson in a single
+  list view
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- User is able to interact with the Tasks by selecting an answer from the given
+  options
+
+- At any moment the user is able to move freely between the Pages and the Tasks
+  view
+
+- Saving or maintaining the list of provided Task answers is out of scope
+
+Screen entry point widget: `LessonDetailsPage`.
+Use existing bloc that loads the lesson data by id `LessonDetailsBloc`.
