@@ -1,4 +1,13 @@
-# lesson_challenge
+# Lesson Challenge
+
+The app loads Lessons each containing Pages and Tasks. Here is the data model:
+
+![fra](uml_diagram.png)
+
+
+## Task
+
+Implement detailed view of the Lesson.
 
 Lesson details feature presents a screen that allows viewing and interacting
 with Pages and Tasks of a selected Lesson.
