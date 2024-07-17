@@ -13,13 +13,12 @@ with Pages and Tasks of a selected Lesson.
 - After user saw all Pages the screen presents Tasks of the Lesson in a single
   list view
 
-- User is able to interact with the Tasks by selecting an answer from the given
-  options
-
 - At any moment the user is able to move freely between the Pages and the Tasks
   view
 
-- Saving or maintaining the list of provided Task answers is out of scope
+## Out of scope
+
+- The ability to interact with the Tasks (submitting answers, etc.)
 
 Screen entry point widget: `LessonDetailsPage`.
 Use existing bloc that loads the lesson data by id `LessonDetailsBloc`.
